@@ -11,7 +11,7 @@ int main() {
     scanf("%d", &num2);
 
     printf("Entrez l'operateur (+, -, *, /, %%, &, |, ~) : ");
-    scanf(" %c", &op);   // espace avant %c pour ignorer les retours à la ligne
+    scanf(" %c", &op);
 
     switch (op) {
         case '+':
@@ -51,7 +51,7 @@ int main() {
             break;
 
         case '~':
-            // L'opérateur ~ est unaire, on applique typiquement sur num1
+            
             printf("Résultat (~num1) : %d\n", ~num1);
             break;
 
@@ -62,5 +62,7 @@ int main() {
 
     return 0;
 }
+
+//Valeurs de num1, num2 et de op testées sur VSCode. Le code est fontionnel 
 
 
